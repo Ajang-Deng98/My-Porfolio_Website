@@ -4,7 +4,6 @@
 :root {
     --header-height: 3rem;
 
-
     /*Colors */
     /* Change favorite color */
     --hue-color: 250; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
@@ -428,7 +427,7 @@ img {
 /* ABOUT*/
 .about_img {
   width: 200px;
-  border-radius: .5rem;
+  border-radius: 50%;
   justify-self: center;
   align-self: center;
 }
@@ -956,104 +955,3 @@ img {
     }
 
   }
-
-
-/* For large devices */
-@media screen and (min-width: 1024px){
-
-
-  .header,
-  .main,
-  .footer_container {
-    padding: 0;
-  }
-
-  .home_blob{
-    width: 320px;
-  }
-
-  .home_social {
-    transform: translateX(-6rem);
-  }
-
-  .portfolio_content {
-    column-gap: 6rem;l
-  }
-
-  .swiper-portfolio-icon {
-    font-size: 3.5rem;
-  }
-
-  .swiper-button-prev {
-    left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -4.5rem;
-  }
-
-  .contact_form {
-    width: 460px;
-  }
-
-  .contact_input {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-
-
-@media screen and (min-width: 1366px){
-
-    .container {
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-      .header,
-  .main,
-  .footer_container {
-    padding: 0;
-  }
-
-  .home_blob{
-    width: 320px;
-  }
-
-  .home_social {
-    transform: translateX(-6rem);
-  }
-
-  .portfolio_content {
-    column-gap: 6rem;l
-  }
-
-  .swiper-portfolio-icon {
-    font-size: 3.5rem;
-  }
-
-  .swiper-button-prev {
-    left: -3.5rem;
-  }
-
-  .swiper-button-next {
-    right: -3.5rem;
-  }
-
-  .swiper-container-horizontal > .swiper-pagination-bullets {
-    bottom: -4.5rem;
-  }
-
-  .contact_form {
-    width: 460px;
-  }
-
-  .contact_input {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
- 
